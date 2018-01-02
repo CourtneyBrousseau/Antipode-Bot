@@ -54,7 +54,7 @@ function getLocationName(body) {
 
 app.get("/", function (request, response) {
     response.writeHeader(200, {"Content-Type": "text/html"});  
-    response.write('<h1>random-image-twitterbot</h1><a href="https://glitch.com/edit/#!/random-image-twitterbot">See README.md</a>');  
+    response.write('<h1>antipode-bot</h1><a href="https://glitch.com/edit/#!/antipode-bot">Check out the source code</a>');  
     response.end();  
 });
 
